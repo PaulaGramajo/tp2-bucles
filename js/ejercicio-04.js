@@ -17,18 +17,13 @@ document.writeln('La suma de los numeros ingresados es igual a: '+suma);*/
 let suma = 0;
 
 do {
-  let num = prompt("Ingrese un numero:");
+  let num = parseInt(prompt("Ingrese un numero:"));
 
-  if (num === null) {
-    break;
-  }
-  let numero = Number(num);
-  if (numero === numero) {
-    suma = suma + numero;
+  if (num == num){
+    suma = suma + num;
   } else {
-    alert("Eso no es un número válido.");
+    alert("No es un número válido.");
   }
-
 } while (confirm('¿Desea ingresar otro número'));
 
 document.writeln("La suma de los numeros ingresados es: " + suma);
