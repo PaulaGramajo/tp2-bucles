@@ -22,6 +22,6 @@ for(let i = num; i>=1; i--){
     piramide = piramide + linea + "<br>"; 
 }
 }else{
-    alert('El número debe ser menor que 50')
+    alert('El número debe ser menor')
 }
 document.writeln(piramide)
